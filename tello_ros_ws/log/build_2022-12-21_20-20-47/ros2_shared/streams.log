@@ -1,0 +1,27 @@
+[0.054s] Invoking command in '/home/tello/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared -- -j3 -l3
+[0.369s] Invoked command in '/home/tello/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared -- -j3 -l3
+[0.602s] Invoking command in '/home/tello/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared --target install -- -j3 -l3
+[0.994s] [36mInstall the project...[0m
+[1.012s] -- Install configuration: ""
+[1.013s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include
+[1.013s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared
+[1.013s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp
+[1.013s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp
+[1.014s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp
+[1.014s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared
+[1.014s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared
+[1.014s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh
+[1.014s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv
+[1.015s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh
+[1.015s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv
+[1.015s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash
+[1.015s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh
+[1.015s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh
+[1.016s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv
+[1.016s] -- Installing: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv
+[1.022s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared
+[1.022s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.022s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake
+[1.022s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake
+[1.022s] -- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml
+[1.034s] Invoked command in '/home/tello/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared --target install -- -j3 -l3

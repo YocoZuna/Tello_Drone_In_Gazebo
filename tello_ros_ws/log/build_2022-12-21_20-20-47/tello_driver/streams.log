@@ -1,0 +1,45 @@
+[0.029s] Invoking command in '/home/tello/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j3 -l3
+[0.171s] [ 13%] Built target tello_joy_main
+[0.253s] [ 22%] Built target tello_emulator
+[0.335s] [ 31%] Built target tello_joy_node
+[0.403s] [ 68%] Built target tello_driver_main
+[0.463s] [100%] Built target tello_driver_node
+[0.483s] Invoked command in '/home/tello/tello_ros_ws/build/tello_driver' returned '0': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j3 -l3
+[0.666s] Invoking command in '/home/tello/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver --target install -- -j3 -l3
+[0.764s] [ 13%] Built target tello_joy_main
+[0.799s] [ 22%] Built target tello_emulator
+[0.847s] [ 31%] Built target tello_joy_node
+[0.909s] [ 68%] Built target tello_driver_main
+[0.966s] [100%] Built target tello_driver_node
+[1.000s] [36mInstall the project...[0m
+[1.015s] -- Install configuration: ""
+[1.016s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/library_path.sh
+[1.016s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/library_path.dsv
+[1.016s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/lib/libtello_driver_node.so
+[1.016s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/lib/libtello_joy_node.so
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/lib/tello_driver/tello_driver_main
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/lib/tello_driver/tello_joy_main
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/lib/tello_driver/tello_emulator
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/cfg
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/cfg/camera_info.yaml
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/launch
+[1.017s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/launch/emulators_launch.py
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/launch/emulator_launch.py
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/launch/teleop_launch.py
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/ament_index/resource_index/package_run_dependencies/tello_driver
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/ament_index/resource_index/parent_prefix_path/tello_driver
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/ament_prefix_path.sh
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/ament_prefix_path.dsv
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/path.sh
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/environment/path.dsv
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/local_setup.bash
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/local_setup.sh
+[1.018s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/local_setup.zsh
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/local_setup.dsv
+[1.019s] -- Installing: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.dsv
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/ament_index/resource_index/packages/tello_driver
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/ament_index/resource_index/rclcpp_components/tello_driver
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/cmake/tello_driverConfig.cmake
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/cmake/tello_driverConfig-version.cmake
+[1.019s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.xml
+[1.029s] Invoked command in '/home/tello/tello_ros_ws/build/tello_driver' returned '0': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver --target install -- -j3 -l3

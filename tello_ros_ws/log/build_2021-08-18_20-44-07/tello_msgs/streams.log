@@ -1,0 +1,151 @@
+[0.021s] Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+[0.135s] [ 11%] Built target tello_msgs__rosidl_generator_c
+[0.138s] [ 13%] Built target tello_msgs__cpp
+[0.175s] [ 24%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[0.183s] [ 35%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[0.223s] [ 46%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[0.240s] [ 57%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[0.265s] [ 68%] Built target tello_msgs__rosidl_typesupport_cpp
+[0.302s] [ 80%] Built target tello_msgs__rosidl_typesupport_c
+[0.329s] [ 80%] Built target tello_msgs
+[0.371s] [ 82%] Built target tello_msgs__py
+[0.409s] [ 91%] Built target tello_msgs__python
+[0.462s] [ 95%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.470s] [100%] Built target tello_msgs__rosidl_typesupport_c__pyext
+[0.484s] Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+[0.640s] Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2
+[0.708s] [ 11%] Built target tello_msgs__rosidl_generator_c
+[0.709s] [ 13%] Built target tello_msgs__cpp
+[0.770s] [ 24%] Built target tello_msgs__rosidl_typesupport_introspection_c
+[0.770s] [ 35%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp
+[0.828s] [ 46%] Built target tello_msgs__rosidl_typesupport_introspection_cpp
+[0.830s] [ 57%] Built target tello_msgs__rosidl_typesupport_fastrtps_c
+[0.886s] [ 68%] Built target tello_msgs__rosidl_typesupport_c
+[0.889s] [ 80%] Built target tello_msgs__rosidl_typesupport_cpp
+[0.911s] [ 80%] Built target tello_msgs
+[0.930s] [ 82%] Built target tello_msgs__py
+[0.976s] [ 91%] Built target tello_msgs__python
+[1.013s] [ 95%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.017s] [100%] Built target tello_msgs__rosidl_typesupport_c__pyext
+[1.040s] [36mInstall the project...[0m
+[1.049s] -- Install configuration: ""
+[1.050s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs
+[1.051s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so
+[1.051s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.sh
+[1.052s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.dsv
+[1.052s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so
+[1.052s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.053s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.053s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_fastrtps_c.h
+[1.053s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_fastrtps_c.h
+[1.053s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.054s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.054s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_fastrtps_c.h
+[1.054s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__functions.h
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__functions.c
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__functions.h
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.h
+[1.055s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.h
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__struct.h
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.h
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.h
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__functions.c
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.056s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__struct.h
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__struct.h
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__functions.c
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.h
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.h
+[1.057s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__functions.h
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_fastrtps_cpp.hpp
+[1.058s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/dds_fastrtps
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_fastrtps_cpp.hpp
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_fastrtps_cpp.hpp
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/dds_fastrtps
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__struct.hpp
+[1.059s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__traits.hpp
+[1.063s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__struct.hpp
+[1.063s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__traits.hpp
+[1.064s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.hpp
+[1.066s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.hpp
+[1.067s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.067s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.hpp
+[1.067s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__struct.hpp
+[1.067s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__traits.hpp
+[1.069s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.069s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.069s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.069s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_introspection_c.h
+[1.069s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.c
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.c
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_introspection_c.h
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.c
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_introspection_c.h
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.cpp
+[1.070s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.cpp
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_introspection_cpp.hpp
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_introspection_cpp.hpp
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.cpp
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_introspection_cpp.hpp
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv
+[1.071s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/__init__.py
+[1.109s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg
+[1.109s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_tello_response_s.c
+[1.109s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_flight_data.py
+[1.110s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_tello_response.py
+[1.110s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_flight_data_s.c
+[1.110s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/__init__.py
+[1.111s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv
+[1.111s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/_tello_action_s.c
+[1.111s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/_tello_action.py
+[1.111s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/__init__.py
+[1.111s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[1.112s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[1.113s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__python.so
+[1.114s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.idl
+[1.114s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl
+[1.114s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl
+[1.114s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.msg
+[1.115s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg
+[1.115s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv
+[1.115s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg
+[1.115s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.sh
+[1.116s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.dsv
+[1.117s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.bash
+[1.117s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.sh
+[1.117s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.zsh
+[1.117s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.dsv
+[1.117s] -- Installing: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.dsv
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.118s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake
+[1.119s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake
+[1.119s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.xml
+[1.121s] Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2

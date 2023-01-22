@@ -1,0 +1,411 @@
+[0.190s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--event-handlers', 'console_direct+']
+[0.190s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=['console_direct+'], executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f0257aef550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f0257aef550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f0257aef898>)
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.196s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.197s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tello/tello_ros_ws'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.198s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_shared) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_shared' with type 'ros.ament_cmake' and name 'ros2_shared'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/docker) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_description) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_ros/tello_description' with type 'ros.ament_cmake' and name 'tello_description'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_driver) by extension 'ros'
+[0.220s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_ros/tello_driver' with type 'ros.ament_cmake' and name 'tello_driver'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_gazebo) by extension 'ros'
+[0.221s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_ros/tello_gazebo' with type 'ros.ament_cmake' and name 'tello_gazebo'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/tello_ros/tello_msgs) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tello_ros/tello_msgs' with type 'ros.ament_cmake' and name 'tello_msgs'
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_args' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_target' from command line to 'None'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.246s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_clean_cache' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_clean_first' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'cmake_force_configure' from command line to 'False'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'ament_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'catkin_cmake_args' from command line to 'None'
+[0.247s] Level 5:colcon.colcon_core.verb:set package 'ros2_shared' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.247s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_shared' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tello/tello_ros_ws/build/ros2_shared', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tello/tello_ros_ws/install/ros2_shared', 'merge_install': False, 'path': '/home/tello/tello_ros_ws/src/ros2_shared', 'symlink_install': False, 'test_result_base': None}
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'tello_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'tello_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tello/tello_ros_ws/build/tello_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tello/tello_ros_ws/install/tello_description', 'merge_install': False, 'path': '/home/tello/tello_ros_ws/src/tello_ros/tello_description', 'symlink_install': False, 'test_result_base': None}
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'tello_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'tello_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tello/tello_ros_ws/build/tello_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tello/tello_ros_ws/install/tello_msgs', 'merge_install': False, 'path': '/home/tello/tello_ros_ws/src/tello_ros/tello_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'tello_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.257s] DEBUG:colcon.colcon_core.verb:Building package 'tello_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tello/tello_ros_ws/build/tello_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tello/tello_ros_ws/install/tello_driver', 'merge_install': False, 'path': '/home/tello/tello_ros_ws/src/tello_ros/tello_driver', 'symlink_install': False, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'tello_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'tello_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tello/tello_ros_ws/build/tello_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tello/tello_ros_ws/install/tello_gazebo', 'merge_install': False, 'path': '/home/tello/tello_ros_ws/src/tello_ros/tello_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.261s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.263s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tello/tello_ros_ws/src/tello_ros/tello_msgs' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tello/tello_ros_ws/src/tello_ros/tello_msgs'
+[0.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.273s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tello/tello_ros_ws/src/ros2_shared' with build type 'ament_cmake'
+[0.273s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tello/tello_ros_ws/src/ros2_shared'
+[0.274s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.274s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.277s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.284s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+[0.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared -- -j2 -l2
+[0.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared -- -j2 -l2
+[0.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/ros2_shared': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared --target install -- -j2 -l2
+[0.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_shared)
+[0.497s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/ros2_shared' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/ros2_shared --target install -- -j2 -l2
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared' for CMake module files
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared' for CMake config files
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_shared', 'cmake_prefix_path')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.sh'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/bin'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/lib/pkgconfig/ros2_shared.pc'
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/lib/python3.6/site-packages'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.ps1'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.bash'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.zsh'
+[0.514s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/ros2_shared/share/colcon-core/packages/ros2_shared)
+[0.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_shared)
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared' for CMake module files
+[0.538s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared' for CMake config files
+[0.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_shared', 'cmake_prefix_path')
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.dsv'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/hook/cmake_prefix_path.sh'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/bin'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/lib/pkgconfig/ros2_shared.pc'
+[0.541s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/ros2_shared/lib/python3.6/site-packages'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.ps1'
+[0.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.bash'
+[0.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.zsh'
+[0.544s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/ros2_shared/share/colcon-core/packages/ros2_shared)
+[0.545s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tello/tello_ros_ws/src/tello_ros/tello_description' with build type 'ament_cmake'
+[0.545s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tello/tello_ros_ws/src/tello_ros/tello_description'
+[0.545s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.545s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.547s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description -- -j2 -l2
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+[0.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description -- -j2 -l2
+[0.788s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2
+[0.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description --target install -- -j2 -l2
+[1.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_description)
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description' for CMake module files
+[1.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description --target install -- -j2 -l2
+[1.044s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description' for CMake config files
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_description', 'cmake_prefix_path')
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/bin'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/lib/pkgconfig/tello_description.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/lib/python3.6/site-packages'
+[1.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.ps1'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.dsv'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.sh'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.bash'
+[1.049s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.zsh'
+[1.050s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_description/share/colcon-core/packages/tello_description)
+[1.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_description)
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description' for CMake module files
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description' for CMake config files
+[1.080s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_description', 'cmake_prefix_path')
+[1.080s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/hook/cmake_prefix_path.sh'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/bin'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/lib/pkgconfig/tello_description.pc'
+[1.082s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_description/lib/python3.6/site-packages'
+[1.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.ps1'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.dsv'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.sh'
+[1.084s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.bash'
+[1.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.zsh'
+[1.085s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_description/share/colcon-core/packages/tello_description)
+[1.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msgs)
+[1.214s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs' for CMake module files
+[1.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2
+[1.215s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs' for CMake config files
+[1.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'cmake_prefix_path')
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.ps1'
+[1.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.dsv'
+[1.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.sh'
+[1.217s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib'
+[1.218s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'ld_library_path_lib')
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.ps1'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.dsv'
+[1.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.sh'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/bin'
+[1.219s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib/pkgconfig/tello_msgs.pc'
+[1.220s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages'
+[1.220s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'pythonpath')
+[1.220s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.ps1'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.dsv'
+[1.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.sh'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.ps1'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.dsv'
+[1.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.sh'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.bash'
+[1.224s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_msgs/share/colcon-core/packages/tello_msgs)
+[1.307s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_msgs)
+[1.308s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs' for CMake module files
+[1.309s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs' for CMake config files
+[1.309s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'cmake_prefix_path')
+[1.310s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.ps1'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.dsv'
+[1.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/cmake_prefix_path.sh'
+[1.312s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib'
+[1.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'ld_library_path_lib')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.ps1'
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/ld_library_path_lib.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/bin'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib/pkgconfig/tello_msgs.pc'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages'
+[1.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_msgs', 'pythonpath')
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.ps1'
+[1.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.dsv'
+[1.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/hook/pythonpath.sh'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.ps1'
+[1.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.dsv'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.sh'
+[1.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.bash'
+[1.320s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.zsh'
+[1.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_msgs/share/colcon-core/packages/tello_msgs)
+[1.321s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tello/tello_ros_ws/src/tello_ros/tello_driver' with build type 'ament_cmake'
+[1.321s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tello/tello_ros_ws/src/tello_ros/tello_driver'
+[1.322s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.322s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.324s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tello/tello_ros_ws/src/tello_ros/tello_gazebo' with build type 'ament_cmake'
+[1.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tello/tello_ros_ws/src/tello_ros/tello_gazebo'
+[1.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.328s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.330s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[1.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2
+[1.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_gazebo': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_gazebo -- -j2 -l2
+[1.536s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_gazebo -- -j2 -l2
+[1.726s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tello/tello_ros_ws/build/tello_gazebo': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_gazebo --target install -- -j2 -l2
+[1.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_driver' returned '2': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2
+[1.928s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_gazebo)
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo' for CMake module files
+[1.929s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo' for CMake config files
+[1.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_gazebo', 'cmake_prefix_path')
+[1.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.ps1'
+[1.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.dsv'
+[1.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.sh'
+[1.936s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib'
+[1.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_gazebo', 'ld_library_path_lib')
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.ps1'
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.dsv'
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.sh'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/bin'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib/pkgconfig/tello_gazebo.pc'
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib/python3.6/site-packages'
+[1.939s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.dsv'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.sh'
+[1.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.bash'
+[1.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.zsh'
+[1.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_gazebo/share/colcon-core/packages/tello_gazebo)
+[1.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tello/tello_ros_ws/build/tello_gazebo' returned '0': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_gazebo --target install -- -j2 -l2
+[1.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_gazebo)
+[1.977s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo' for CMake module files
+[1.978s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo' for CMake config files
+[1.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_gazebo', 'cmake_prefix_path')
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.ps1'
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.dsv'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/cmake_prefix_path.sh'
+[1.981s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib'
+[1.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('tello_gazebo', 'ld_library_path_lib')
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.ps1'
+[1.983s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.dsv'
+[1.984s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/hook/ld_library_path_lib.sh'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/bin'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib/pkgconfig/tello_gazebo.pc'
+[1.984s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_gazebo/lib/python3.6/site-packages'
+[1.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.ps1'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.dsv'
+[1.986s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.sh'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.bash'
+[1.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.zsh'
+[1.988s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_gazebo/share/colcon-core/packages/tello_gazebo)
+[1.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tello_driver)
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_driver' for CMake module files
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_driver' for CMake config files
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_driver/bin'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_driver/lib/pkgconfig/tello_driver.pc'
+[1.992s] Level 1:colcon.colcon_core.environment:checking '/home/tello/tello_ros_ws/install/tello_driver/lib/python3.6/site-packages'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.ps1'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.sh'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.bash'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/tello/tello_ros_ws/install/tello_driver/share/tello_driver/package.zsh'
+[1.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tello/tello_ros_ws/install/tello_driver/share/colcon-core/packages/tello_driver)
+[2.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.006s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.006s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.018s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.018s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.018s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.023s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.024s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tello/tello_ros_ws/install/local_setup.ps1'
+[2.026s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tello/tello_ros_ws/install/_local_setup_util_ps1.py'
+[2.027s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tello/tello_ros_ws/install/setup.ps1'
+[2.030s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tello/tello_ros_ws/install/local_setup.sh'
+[2.031s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tello/tello_ros_ws/install/_local_setup_util_sh.py'
+[2.031s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tello/tello_ros_ws/install/setup.sh'
+[2.035s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tello/tello_ros_ws/install/local_setup.bash'
+[2.036s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tello/tello_ros_ws/install/setup.bash'
+[2.039s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tello/tello_ros_ws/install/local_setup.zsh'
+[2.042s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tello/tello_ros_ws/install/setup.zsh'

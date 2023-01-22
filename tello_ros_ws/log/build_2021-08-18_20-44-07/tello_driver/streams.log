@@ -1,0 +1,12 @@
+[0.011s] Invoking command in '/home/tello/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2
+[0.070s] make[2]: *** [CMakeFiles/tello_driver_node.dir/depend] Interrupt
+[0.070s] CMakeFiles/tello_driver_node.dir/build.make:370: recipe for target 'CMakeFiles/tello_driver_node.dir/depend' failed
+[0.070s] make[1]: *** [CMakeFiles/tello_driver_node.dir/all] Interrupt
+[0.070s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/tello_driver_node.dir/all' failed
+[0.071s] CMakeFiles/tello_joy_main.dir/build.make:206: recipe for target 'CMakeFiles/tello_joy_main.dir/depend' failed
+[0.071s] make[2]: *** [CMakeFiles/tello_joy_main.dir/depend] Interrupt
+[0.071s] make[1]: *** [CMakeFiles/tello_joy_main.dir/all] Interrupt
+[0.072s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tello_joy_main.dir/all' failed
+[0.072s] Makefile:140: recipe for target 'all' failed
+[0.073s] make: *** [all] Interrupt
+[0.073s] Invoked command in '/home/tello/tello_ros_ws/build/tello_driver' returned '-2': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2

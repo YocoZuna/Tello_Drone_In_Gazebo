@@ -1,0 +1,5 @@
+CMakeFiles/tello_driver_node.dir/build.make:370: recipe for target 'CMakeFiles/tello_driver_node.dir/depend' failed
+CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/tello_driver_node.dir/all' failed
+CMakeFiles/tello_joy_main.dir/build.make:206: recipe for target 'CMakeFiles/tello_joy_main.dir/depend' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tello_joy_main.dir/all' failed
+Makefile:140: recipe for target 'all' failed

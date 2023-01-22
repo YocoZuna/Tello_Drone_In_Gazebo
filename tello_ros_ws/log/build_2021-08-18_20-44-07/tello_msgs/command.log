@@ -1,0 +1,4 @@
+Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs -- -j2 -l2
+Invoking command in '/home/tello/tello_ros_ws/build/tello_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2
+Invoked command in '/home/tello/tello_ros_ws/build/tello_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_msgs --target install -- -j2 -l2

@@ -1,0 +1,14 @@
+[0.021s] Invoking command in '/home/tello/tello_ros_ws/build/tello_driver': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2
+[0.146s] [ 13%] Built target tello_joy_main
+[0.213s] [ 18%] [32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o[0m
+[0.445s] [01m[K/home/tello/tello_ros_ws/src/tello_ros/tello_driver/src/video_socket.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kcamera_calibration_parsers/parse.hpp: No such file or directory
+[0.445s]  #include [01;31m[K"camera_calibration_parsers/parse.hpp"[m[K
+[0.445s]           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.445s] compilation terminated.
+[0.449s] CMakeFiles/tello_driver_node.dir/build.make:158: recipe for target 'CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o' failed
+[0.450s] make[2]: *** [CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o] Error 1
+[0.451s] make[1]: *** [CMakeFiles/tello_driver_node.dir/all] Error 2
+[0.451s] CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/tello_driver_node.dir/all' failed
+[0.453s] make: *** [all] Error 2
+[0.453s] Makefile:140: recipe for target 'all' failed
+[0.454s] Invoked command in '/home/tello/tello_ros_ws/build/tello_driver' returned '2': AMENT_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent LD_LIBRARY_PATH=/home/tello/tello_ros_ws/install/tello_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_driver -- -j2 -l2

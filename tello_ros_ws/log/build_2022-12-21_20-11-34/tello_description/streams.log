@@ -1,0 +1,49 @@
+[0.084s] Invoking command in '/home/tello/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description -- -j3 -l3
+[0.286s] [ 11%] Built target generate_urdf_3
+[0.295s] [ 22%] Built target generate_urdf_4
+[0.296s] [ 33%] Built target generate_urdf
+[0.345s] [ 44%] Built target generate_urdf_5
+[0.362s] [ 55%] Built target generate_urdf_7
+[0.370s] [ 66%] Built target generate_urdf_6
+[0.426s] [ 77%] Built target generate_urdf_1
+[0.440s] [ 88%] Built target generate_urdf_8
+[0.452s] [100%] Built target generate_urdf_2
+[0.478s] Invoked command in '/home/tello/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description -- -j3 -l3
+[0.614s] Invoking command in '/home/tello/tello_ros_ws/build/tello_description': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description --target install -- -j3 -l3
+[0.713s] [ 11%] Built target generate_urdf_4
+[0.724s] [ 22%] Built target generate_urdf_3
+[0.744s] [ 33%] Built target generate_urdf
+[0.773s] [ 44%] Built target generate_urdf_5
+[0.780s] [ 55%] Built target generate_urdf_7
+[0.783s] [ 66%] Built target generate_urdf_6
+[0.816s] [ 77%] Built target generate_urdf_1
+[0.822s] [ 88%] Built target generate_urdf_8
+[0.829s] [100%] Built target generate_urdf_2
+[0.855s] [36mInstall the project...[0m
+[0.876s] -- Install configuration: ""
+[0.876s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf
+[0.877s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf
+[0.877s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf
+[0.878s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf
+[0.878s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf
+[0.878s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf
+[0.879s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf
+[0.879s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf
+[0.879s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf
+[0.879s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf
+[0.881s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description
+[0.883s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description
+[0.884s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh
+[0.885s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv
+[0.885s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh
+[0.886s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv
+[0.886s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash
+[0.886s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh
+[0.886s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh
+[0.886s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv
+[0.886s] -- Installing: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.dsv
+[0.889s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description
+[0.890s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake
+[0.891s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake
+[0.891s] -- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.xml
+[0.900s] Invoked command in '/home/tello/tello_ros_ws/build/tello_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/tello/tello_ros_ws/build/tello_description --target install -- -j3 -l3

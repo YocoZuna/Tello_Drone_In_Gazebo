@@ -1,0 +1,1 @@
+/usr/bin/ld: warning: libopencv_core.so.3.2, needed by /opt/ros/eloquent/lib/libcv_bridge.so, may conflict with libopencv_core.so.4.5

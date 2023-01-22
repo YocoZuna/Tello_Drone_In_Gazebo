@@ -1,0 +1,534 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (ros2_shared) JobQueued: {'identifier': 'ros2_shared', 'dependencies': OrderedDict()}
+[0.000237] (tello_description) JobQueued: {'identifier': 'tello_description', 'dependencies': OrderedDict()}
+[0.000331] (tello_msgs) JobQueued: {'identifier': 'tello_msgs', 'dependencies': OrderedDict()}
+[0.000368] (tello_driver) JobQueued: {'identifier': 'tello_driver', 'dependencies': OrderedDict([('ros2_shared', '/home/tello/tello_ros_ws/install/ros2_shared'), ('tello_msgs', '/home/tello/tello_ros_ws/install/tello_msgs')])}
+[0.000408] (tello_gazebo) JobQueued: {'identifier': 'tello_gazebo', 'dependencies': OrderedDict([('tello_msgs', '/home/tello/tello_ros_ws/install/tello_msgs')])}
+[0.000442] (tello_msgs) JobStarted: {'identifier': 'tello_msgs'}
+[0.019089] (ros2_shared) JobStarted: {'identifier': 'ros2_shared'}
+[0.025562] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'cmake'}
+[0.029670] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'build'}
+[0.031513] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_msgs', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.037841] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'cmake'}
+[0.038761] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'build'}
+[0.040235] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/ros2_shared', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/ros2_shared', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/ros2_shared'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.099231] (-) TimerEvent: {}
+[0.118422] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.149350] (tello_msgs) StdoutLine: {'line': b'[  2%] Built target tello_msgs__cpp\n'}
+[0.164573] (ros2_shared) JobProgress: {'identifier': 'ros2_shared', 'progress': 'install'}
+[0.182055] (tello_msgs) StdoutLine: {'line': b'[ 13%] Built target tello_msgs__rosidl_generator_c\n'}
+[0.187604] (ros2_shared) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/ros2_shared', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/ros2_shared', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/ros2_shared'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.191373] (tello_msgs) StdoutLine: {'line': b'[ 24%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.199458] (-) TimerEvent: {}
+[0.230372] (tello_msgs) StdoutLine: {'line': b'[ 35%] Built target tello_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.256096] (tello_msgs) StdoutLine: {'line': b'[ 46%] Built target tello_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.264279] (ros2_shared) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.273654] (ros2_shared) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.274333] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include\n'}
+[0.275046] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared\n'}
+[0.278055] (tello_msgs) StdoutLine: {'line': b'[ 57%] Built target tello_msgs__rosidl_typesupport_cpp\n'}
+[0.278293] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/context_macros.hpp\n'}
+[0.278500] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/param_macros.hpp\n'}
+[0.278717] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/include/ros2_shared/string_printf.hpp\n'}
+[0.279945] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/package_run_dependencies/ros2_shared\n'}
+[0.280604] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/parent_prefix_path/ros2_shared\n'}
+[0.281655] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.sh\n'}
+[0.281807] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/ament_prefix_path.dsv\n'}
+[0.287698] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.sh\n'}
+[0.287917] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/environment/path.dsv\n'}
+[0.288077] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.bash\n'}
+[0.288235] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.sh\n'}
+[0.288407] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.zsh\n'}
+[0.288564] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/local_setup.dsv\n'}
+[0.288719] (ros2_shared) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.dsv\n'}
+[0.288874] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ament_index/resource_index/packages/ros2_shared\n'}
+[0.289030] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.289186] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig.cmake\n'}
+[0.289350] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/cmake/ros2_sharedConfig-version.cmake\n'}
+[0.289504] (ros2_shared) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/ros2_shared/share/ros2_shared/package.xml\n'}
+[0.290634] (ros2_shared) CommandEnded: {'returncode': 0}
+[0.299619] (-) TimerEvent: {}
+[0.321883] (tello_msgs) StdoutLine: {'line': b'[ 68%] Built target tello_msgs__rosidl_typesupport_introspection_c\n'}
+[0.330765] (tello_msgs) StdoutLine: {'line': b'[ 80%] Built target tello_msgs__rosidl_typesupport_c\n'}
+[0.355438] (ros2_shared) JobEnded: {'identifier': 'ros2_shared', 'rc': 0}
+[0.357569] (tello_description) JobStarted: {'identifier': 'tello_description'}
+[0.366224] (tello_msgs) StdoutLine: {'line': b'[ 80%] Built target tello_msgs\n'}
+[0.369201] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'cmake'}
+[0.371568] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'build'}
+[0.371728] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_description', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_description'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.397393] (tello_msgs) StdoutLine: {'line': b'[ 82%] Built target tello_msgs__py\n'}
+[0.399921] (-) TimerEvent: {}
+[0.448666] (tello_msgs) StdoutLine: {'line': b'[ 91%] Built target tello_msgs__python\n'}
+[0.449137] (tello_description) StdoutLine: {'line': b'[ 11%] Built target generate_urdf_4\n'}
+[0.458800] (tello_description) StdoutLine: {'line': b'[ 22%] Built target generate_urdf\n'}
+[0.499798] (tello_description) StdoutLine: {'line': b'[ 33%] Built target generate_urdf_3\n'}
+[0.500040] (-) TimerEvent: {}
+[0.501030] (tello_msgs) StdoutLine: {'line': b'[ 95%] Built target tello_msgs__rosidl_typesupport_c__pyext\n'}
+[0.503960] (tello_description) StdoutLine: {'line': b'[ 44%] Built target generate_urdf_5\n'}
+[0.512246] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.525400] (tello_msgs) CommandEnded: {'returncode': 0}
+[0.548759] (tello_description) StdoutLine: {'line': b'[ 55%] Built target generate_urdf_7\n'}
+[0.549487] (tello_description) StdoutLine: {'line': b'[ 66%] Built target generate_urdf_6\n'}
+[0.574875] (tello_description) StdoutLine: {'line': b'[ 77%] Built target generate_urdf_1\n'}
+[0.584850] (tello_description) StdoutLine: {'line': b'[ 88%] Built target generate_urdf_8\n'}
+[0.601195] (-) TimerEvent: {}
+[0.610874] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_2\n'}
+[0.623827] (tello_description) CommandEnded: {'returncode': 0}
+[0.638659] (tello_msgs) JobProgress: {'identifier': 'tello_msgs', 'progress': 'install'}
+[0.638832] (tello_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_msgs', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_msgs'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.662143] (tello_description) JobProgress: {'identifier': 'tello_description', 'progress': 'install'}
+[0.662314] (tello_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_description', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_description'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.701693] (-) TimerEvent: {}
+[0.705973] (tello_msgs) StdoutLine: {'line': b'[ 11%] Built target tello_msgs__rosidl_generator_c\n'}
+[0.716566] (tello_msgs) StdoutLine: {'line': b'[ 13%] Built target tello_msgs__cpp\n'}
+[0.727137] (tello_description) StdoutLine: {'line': b'[ 11%] Built target generate_urdf\n'}
+[0.742434] (tello_description) StdoutLine: {'line': b'[ 22%] Built target generate_urdf_4\n'}
+[0.743739] (tello_msgs) StdoutLine: {'line': b'[ 24%] Built target tello_msgs__rosidl_typesupport_introspection_c\n'}
+[0.771823] (tello_description) StdoutLine: {'line': b'[ 33%] Built target generate_urdf_3\n'}
+[0.776890] (tello_msgs) StdoutLine: {'line': b'[ 35%] Built target tello_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.790347] (tello_description) StdoutLine: {'line': b'[ 44%] Built target generate_urdf_5\n'}
+[0.796001] (tello_msgs) StdoutLine: {'line': b'[ 46%] Built target tello_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.802300] (-) TimerEvent: {}
+[0.830592] (tello_description) StdoutLine: {'line': b'[ 55%] Built target generate_urdf_7\n'}
+[0.830922] (tello_description) StdoutLine: {'line': b'[ 66%] Built target generate_urdf_6\n'}
+[0.853771] (tello_msgs) StdoutLine: {'line': b'[ 57%] Built target tello_msgs__rosidl_typesupport_cpp\n'}
+[0.860697] (tello_msgs) StdoutLine: {'line': b'[ 68%] Built target tello_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.867713] (tello_description) StdoutLine: {'line': b'[ 77%] Built target generate_urdf_8\n'}
+[0.871909] (tello_description) StdoutLine: {'line': b'[ 88%] Built target generate_urdf_1\n'}
+[0.889940] (tello_description) StdoutLine: {'line': b'[100%] Built target generate_urdf_2\n'}
+[0.902586] (-) TimerEvent: {}
+[0.905939] (tello_description) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.906791] (tello_msgs) StdoutLine: {'line': b'[ 80%] Built target tello_msgs__rosidl_typesupport_c\n'}
+[0.915089] (tello_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.916524] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf\n'}
+[0.916857] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_3.urdf\n'}
+[0.917092] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_5.urdf\n'}
+[0.917315] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_6.urdf\n'}
+[0.917534] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello.urdf\n'}
+[0.917775] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_4.urdf\n'}
+[0.917995] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_7.urdf\n'}
+[0.918215] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_2.urdf\n'}
+[0.918430] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_8.urdf\n'}
+[0.918942] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/urdf/tello_1.urdf\n'}
+[0.920028] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/package_run_dependencies/tello_description\n'}
+[0.920598] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/parent_prefix_path/tello_description\n'}
+[0.921093] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.sh\n'}
+[0.921380] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/ament_prefix_path.dsv\n'}
+[0.921676] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/path.sh\n'}
+[0.921956] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/environment/path.dsv\n'}
+[0.922269] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.bash\n'}
+[0.922560] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.sh\n'}
+[0.922842] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.zsh\n'}
+[0.923114] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/local_setup.dsv\n'}
+[0.923386] (tello_description) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.dsv\n'}
+[0.924256] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/ament_index/resource_index/packages/tello_description\n'}
+[0.925114] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig.cmake\n'}
+[0.925360] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/cmake/tello_descriptionConfig-version.cmake\n'}
+[0.925658] (tello_description) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_description/share/tello_description/package.xml\n'}
+[0.930436] (tello_description) CommandEnded: {'returncode': 0}
+[0.937011] (tello_msgs) StdoutLine: {'line': b'[ 80%] Built target tello_msgs\n'}
+[0.964689] (tello_msgs) StdoutLine: {'line': b'[ 82%] Built target tello_msgs__py\n'}
+[0.992463] (tello_description) JobEnded: {'identifier': 'tello_description', 'rc': 0}
+[0.993822] (tello_msgs) StdoutLine: {'line': b'[ 91%] Built target tello_msgs__python\n'}
+[1.003152] (-) TimerEvent: {}
+[1.034724] (tello_msgs) StdoutLine: {'line': b'[ 95%] Built target tello_msgs__rosidl_typesupport_c__pyext\n'}
+[1.036870] (tello_msgs) StdoutLine: {'line': b'[100%] Built target tello_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.060718] (tello_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[1.070519] (tello_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.071447] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/rosidl_interfaces/tello_msgs\n'}
+[1.071812] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_c.so\n'}
+[1.072528] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.sh\n'}
+[1.072707] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/library_path.dsv\n'}
+[1.073304] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_cpp.so\n'}
+[1.074614] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.074971] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.075261] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_fastrtps_c.h\n'}
+[1.075422] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_fastrtps_c.h\n'}
+[1.075736] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.075852] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.076138] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_fastrtps_c.h\n'}
+[1.076604] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.077045] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.077200] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.077477] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__functions.h\n'}
+[1.077651] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__functions.c\n'}
+[1.077966] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__functions.h\n'}
+[1.078121] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.h\n'}
+[1.078269] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.h\n'}
+[1.078576] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__struct.h\n'}
+[1.078744] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.h\n'}
+[1.078894] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.h\n'}
+[1.079150] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__functions.c\n'}
+[1.079262] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.079573] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__struct.h\n'}
+[1.079694] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.079999] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__struct.h\n'}
+[1.080151] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__functions.c\n'}
+[1.080380] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.h\n'}
+[1.080606] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.h\n'}
+[1.080757] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__functions.h\n'}
+[1.081296] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_generator_c.so\n'}
+[1.081645] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.082121] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.082291] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.082446] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.082591] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/dds_fastrtps\n'}
+[1.082702] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.082850] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.083037] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.083144] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/dds_fastrtps\n'}
+[1.085219] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.085397] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.085818] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.086091] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__struct.hpp\n'}
+[1.086332] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__traits.hpp\n'}
+[1.086491] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__struct.hpp\n'}
+[1.086599] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__traits.hpp\n'}
+[1.086789] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response.hpp\n'}
+[1.086936] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data.hpp\n'}
+[1.087084] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.087240] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action.hpp\n'}
+[1.087352] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__struct.hpp\n'}
+[1.087544] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__traits.hpp\n'}
+[1.087690] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.087838] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.087942] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.088309] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_introspection_c.h\n'}
+[1.088459] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.c\n'}
+[1.088608] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.c\n'}
+[1.088716] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_introspection_c.h\n'}
+[1.088910] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.089057] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.c\n'}
+[1.089221] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_introspection_c.h\n'}
+[1.089384] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.089493] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs\n'}
+[1.089700] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg\n'}
+[1.090278] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__type_support.cpp\n'}
+[1.090841] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__type_support.cpp\n'}
+[1.091000] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/flight_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.091251] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/msg/tello_response__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.091399] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv\n'}
+[1.091597] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__type_support.cpp\n'}
+[1.091705] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/include/tello_msgs/srv/tello_action__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.091848] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.091938] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.sh\n'}
+[1.092024] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/pythonpath.dsv\n'}
+[1.092247] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/__init__.py\n'}
+[1.104848] (-) TimerEvent: {}
+[1.146568] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg\n'}
+[1.148280] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_tello_response_s.c\n'}
+[1.148818] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_flight_data.py\n'}
+[1.148927] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_tello_response.py\n'}
+[1.149130] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/_flight_data_s.c\n'}
+[1.149592] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/msg/__init__.py\n'}
+[1.150030] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv\n'}
+[1.150165] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/_tello_action_s.c\n'}
+[1.150335] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/_tello_action.py\n'}
+[1.151289] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/srv/__init__.py\n'}
+[1.152199] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[1.153348] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages/tello_msgs/tello_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[1.154698] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/lib/libtello_msgs__python.so\n'}
+[1.155241] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.idl\n'}
+[1.155520] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.idl\n'}
+[1.155855] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.idl\n'}
+[1.156338] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/FlightData.msg\n'}
+[1.156760] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/msg/TelloResponse.msg\n'}
+[1.157077] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction.srv\n'}
+[1.157353] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Request.msg\n'}
+[1.157611] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/srv/TelloAction_Response.msg\n'}
+[1.158943] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/package_run_dependencies/tello_msgs\n'}
+[1.164912] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/parent_prefix_path/tello_msgs\n'}
+[1.165079] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.sh\n'}
+[1.167617] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/ament_prefix_path.dsv\n'}
+[1.167929] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.sh\n'}
+[1.168152] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/environment/path.dsv\n'}
+[1.168289] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.bash\n'}
+[1.168502] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.sh\n'}
+[1.168717] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.zsh\n'}
+[1.169260] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/local_setup.dsv\n'}
+[1.169449] (tello_msgs) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.dsv\n'}
+[1.169542] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/ament_index/resource_index/packages/tello_msgs\n'}
+[1.169629] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.169811] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.169913] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.170002] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.170113] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig.cmake\n'}
+[1.170210] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/cmake/tello_msgsConfig-version.cmake\n'}
+[1.170299] (tello_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tello/tello_ros_ws/install/tello_msgs/share/tello_msgs/package.xml\n'}
+[1.170390] (tello_msgs) CommandEnded: {'returncode': 0}
+[1.205052] (-) TimerEvent: {}
+[1.276758] (tello_msgs) JobEnded: {'identifier': 'tello_msgs', 'rc': 0}
+[1.279393] (tello_driver) JobStarted: {'identifier': 'tello_driver'}
+[1.284865] (tello_gazebo) JobStarted: {'identifier': 'tello_gazebo'}
+[1.295169] (tello_driver) JobProgress: {'identifier': 'tello_driver', 'progress': 'cmake'}
+[1.298138] (tello_driver) JobProgress: {'identifier': 'tello_driver', 'progress': 'build'}
+[1.298321] (tello_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_driver', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_driver'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/home/tello/tello_ros_ws/install/ros2_shared:/opt/ros/eloquent')]), 'shell': False}
+[1.304113] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'cmake'}
+[1.307615] (-) TimerEvent: {}
+[1.309383] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'build'}
+[1.309854] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_gazebo', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent')]), 'shell': False}
+[1.407844] (-) TimerEvent: {}
+[1.415147] (tello_driver) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o\x1b[0m\n'}
+[1.431036] (tello_driver) StdoutLine: {'line': b'[ 18%] Built target tello_joy_main\n'}
+[1.479211] (tello_gazebo) StdoutLine: {'line': b'[100%] Built target TelloPlugin\n'}
+[1.493731] (tello_gazebo) CommandEnded: {'returncode': 0}
+[1.494588] (tello_driver) StdoutLine: {'line': b'[ 27%] Built target tello_emulator\n'}
+[1.508557] (-) TimerEvent: {}
+[1.560888] (tello_gazebo) JobProgress: {'identifier': 'tello_gazebo', 'progress': 'install'}
+[1.560972] (tello_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tello/tello_ros_ws/build/tello_gazebo', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/tello/tello_ros_ws/build/tello_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tello'), ('LC_TIME', 'pl_PL.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1169'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib'), ('SHLVL', '1'), ('OLDPWD', '/home/tello'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tello'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'pl_PL.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tello'), ('GTK_IM_MODULE', 'ibus'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'tello'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/tello-VirtualBox:@/tmp/.ICE-unix/1032,unix/tello-VirtualBox:/tmp/.ICE-unix/1032'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/89de0c92_ec65_474b_9f84_087547f2f54b'), ('LC_ADDRESS', 'pl_PL.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pl_PL.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.75'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'pl_PL.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pl_PL.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'pl_PL.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'xim'), ('PWD', '/home/tello/tello_ros_ws/build/tello_gazebo'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'pl_PL.UTF-8'), ('PYTHONPATH', '/home/tello/tello_ros_ws/install/tello_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'pl_PL.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tello/tello_ros_ws/install/tello_msgs:/opt/ros/eloquent')]), 'shell': False}
+[1.566510] (tello_driver) StdoutLine: {'line': b'[ 36%] Built target tello_joy_node\n'}
+[1.608748] (-) TimerEvent: {}
+[1.624531] (tello_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tello_driver_main\x1b[0m\n'}
+[1.708914] (-) TimerEvent: {}
+[1.722188] (tello_gazebo) StdoutLine: {'line': b'[100%] Built target TelloPlugin\n'}
+[1.752375] (tello_gazebo) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[1.762226] (tello_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.762628] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/lib/libTelloPlugin.so\n'}
+[1.766116] (tello_gazebo) StdoutLine: {'line': b'-- Set runtime path of "/home/tello/tello_ros_ws/install/tello_gazebo/lib/libTelloPlugin.so" to ""\n'}
+[1.770518] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models\n'}
+[1.770802] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1\n'}
+[1.771296] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.config\n'}
+[1.771802] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/model.sdf\n'}
+[1.772088] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials\n'}
+[1.772583] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures\n'}
+[1.772851] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.svg\n'}
+[1.773331] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/textures/aruco_mark_1.png\n'}
+[1.773889] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/scripts\n'}
+[1.774533] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_1/materials/scripts/marker_1.material\n'}
+[1.775104] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2\n'}
+[1.775584] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.config\n'}
+[1.775924] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/model.sdf\n'}
+[1.776207] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials\n'}
+[1.776527] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures\n'}
+[1.776798] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.svg\n'}
+[1.777116] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/textures/aruco_mark_2.png\n'}
+[1.777419] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/scripts\n'}
+[1.777709] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_2/materials/scripts/marker_2.material\n'}
+[1.778032] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5\n'}
+[1.778401] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.config\n'}
+[1.778988] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/model.sdf\n'}
+[1.779252] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials\n'}
+[1.779519] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures\n'}
+[1.779807] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.png\n'}
+[1.780116] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/textures/aruco_mark_5.svg\n'}
+[1.780752] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/scripts\n'}
+[1.781078] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_5/materials/scripts/marker_5.material\n'}
+[1.781382] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0\n'}
+[1.781889] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.config\n'}
+[1.782238] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/model.sdf\n'}
+[1.782537] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials\n'}
+[1.782795] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures\n'}
+[1.783078] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.png\n'}
+[1.783448] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/textures/aruco_mark_0.svg\n'}
+[1.783680] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/scripts\n'}
+[1.783920] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_0/materials/scripts/marker_0.material\n'}
+[1.784188] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4\n'}
+[1.784888] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.config\n'}
+[1.785706] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/model.sdf\n'}
+[1.786424] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials\n'}
+[1.787020] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures\n'}
+[1.787240] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.png\n'}
+[1.787504] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/textures/aruco_mark_4.svg\n'}
+[1.787777] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/scripts\n'}
+[1.788055] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_4/materials/scripts/marker_4.material\n'}
+[1.788326] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6\n'}
+[1.788592] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.config\n'}
+[1.788942] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/model.sdf\n'}
+[1.789312] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials\n'}
+[1.789585] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures\n'}
+[1.789920] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.png\n'}
+[1.790200] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/textures/aruco_mark_6.svg\n'}
+[1.790510] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/scripts\n'}
+[1.790808] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_6/materials/scripts/marker_6.material\n'}
+[1.791234] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7\n'}
+[1.791534] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.config\n'}
+[1.792095] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/model.sdf\n'}
+[1.792341] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials\n'}
+[1.792720] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures\n'}
+[1.793037] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.svg\n'}
+[1.793425] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/textures/aruco_mark_7.png\n'}
+[1.793997] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/scripts\n'}
+[1.794527] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_7/materials/scripts/marker_7.material\n'}
+[1.795534] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3\n'}
+[1.796741] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.config\n'}
+[1.797770] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/model.sdf\n'}
+[1.797893] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials\n'}
+[1.805026] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures\n'}
+[1.806519] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.svg\n'}
+[1.806643] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/textures/aruco_mark_3.png\n'}
+[1.806804] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/scripts\n'}
+[1.808902] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/models/marker_3/materials/scripts/marker_3.material\n'}
+[1.809015] (-) TimerEvent: {}
+[1.809124] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds\n'}
+[1.809250] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/f2_map.yaml\n'}
+[1.809362] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/simple.world\n'}
+[1.809460] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/fiducial_map.yaml\n'}
+[1.809632] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/build_world.py\n'}
+[1.809740] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/fiducial.world\n'}
+[1.809836] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/worlds/f2.world\n'}
+[1.809966] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch\n'}
+[1.810134] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch/simple_launch.py\n'}
+[1.810247] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/launch/vlam_launch.py\n'}
+[1.811966] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/lib/tello_gazebo/inject_entity.py\n'}
+[1.812248] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/package_run_dependencies/tello_gazebo\n'}
+[1.812471] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/parent_prefix_path/tello_gazebo\n'}
+[1.812664] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.sh\n'}
+[1.812839] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/ament_prefix_path.dsv\n'}
+[1.813645] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/path.sh\n'}
+[1.817535] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/environment/path.dsv\n'}
+[1.818024] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.bash\n'}
+[1.818171] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.sh\n'}
+[1.826733] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.zsh\n'}
+[1.826970] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/local_setup.dsv\n'}
+[1.827812] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.dsv\n'}
+[1.828032] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/ament_index/resource_index/packages/tello_gazebo\n'}
+[1.828188] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig.cmake\n'}
+[1.828446] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/cmake/tello_gazeboConfig-version.cmake\n'}
+[1.828607] (tello_gazebo) StdoutLine: {'line': b'-- Installing: /home/tello/tello_ros_ws/install/tello_gazebo/share/tello_gazebo/package.xml\n'}
+[1.828764] (tello_gazebo) CommandEnded: {'returncode': 0}
+[1.858295] (tello_driver) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_driver_main.cpp.o\x1b[0m\n'}
+[1.909977] (-) TimerEvent: {}
+[1.970573] (tello_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tello/tello_ros_ws/src/tello_ros/tello_driver/src/video_socket.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_calibration_parsers/parse.hpp: No such file or directory\n'}
+[1.970807] (tello_driver) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"camera_calibration_parsers/parse.hpp"\x1b[m\x1b[K\n'}
+[1.970917] (tello_driver) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.971066] (tello_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[1.973505] (tello_driver) StdoutLine: {'line': b"CMakeFiles/tello_driver_node.dir/build.make:158: recipe for target 'CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o' failed\n"}
+[1.974271] (tello_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o] Error 1\n'}
+[1.974473] (tello_driver) StdoutLine: {'line': b"CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/tello_driver_node.dir/all' failed\n"}
+[1.974586] (tello_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/tello_driver_node.dir/all] Error 2\n'}
+[1.974767] (tello_driver) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[1.990617] (tello_gazebo) JobEnded: {'identifier': 'tello_gazebo', 'rc': 0}
+[2.002691] (tello_driver) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_driver_node.cpp.o\x1b[0m\n'}
+[2.010368] (-) TimerEvent: {}
+[2.110750] (-) TimerEvent: {}
+[2.211100] (-) TimerEvent: {}
+[2.312063] (-) TimerEvent: {}
+[2.412629] (-) TimerEvent: {}
+[2.513074] (-) TimerEvent: {}
+[2.613602] (-) TimerEvent: {}
+[2.714957] (-) TimerEvent: {}
+[2.815698] (-) TimerEvent: {}
+[2.916390] (-) TimerEvent: {}
+[3.017074] (-) TimerEvent: {}
+[3.118095] (-) TimerEvent: {}
+[3.218357] (-) TimerEvent: {}
+[3.320087] (-) TimerEvent: {}
+[3.424182] (-) TimerEvent: {}
+[3.525523] (-) TimerEvent: {}
+[3.627134] (-) TimerEvent: {}
+[3.727791] (-) TimerEvent: {}
+[3.828612] (-) TimerEvent: {}
+[3.929257] (-) TimerEvent: {}
+[4.029878] (-) TimerEvent: {}
+[4.131514] (-) TimerEvent: {}
+[4.232097] (-) TimerEvent: {}
+[4.332680] (-) TimerEvent: {}
+[4.434646] (-) TimerEvent: {}
+[4.535557] (-) TimerEvent: {}
+[4.557022] (tello_driver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/tello_socket.cpp.o\x1b[0m\n'}
+[4.635730] (-) TimerEvent: {}
+[4.736075] (-) TimerEvent: {}
+[4.837364] (-) TimerEvent: {}
+[4.939042] (-) TimerEvent: {}
+[5.039745] (-) TimerEvent: {}
+[5.140725] (-) TimerEvent: {}
+[5.241392] (-) TimerEvent: {}
+[5.342052] (-) TimerEvent: {}
+[5.443206] (-) TimerEvent: {}
+[5.543629] (-) TimerEvent: {}
+[5.644591] (-) TimerEvent: {}
+[5.745810] (-) TimerEvent: {}
+[5.846808] (-) TimerEvent: {}
+[5.948178] (-) TimerEvent: {}
+[6.049362] (-) TimerEvent: {}
+[6.150187] (-) TimerEvent: {}
+[6.251352] (-) TimerEvent: {}
+[6.352123] (-) TimerEvent: {}
+[6.452798] (-) TimerEvent: {}
+[6.554121] (-) TimerEvent: {}
+[6.654514] (-) TimerEvent: {}
+[6.758829] (-) TimerEvent: {}
+[6.759210] (tello_driver) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/command_socket.cpp.o\x1b[0m\n'}
+[6.859037] (-) TimerEvent: {}
+[6.959364] (-) TimerEvent: {}
+[7.060065] (-) TimerEvent: {}
+[7.160552] (-) TimerEvent: {}
+[7.261229] (-) TimerEvent: {}
+[7.361761] (-) TimerEvent: {}
+[7.462897] (-) TimerEvent: {}
+[7.563529] (-) TimerEvent: {}
+[7.665132] (-) TimerEvent: {}
+[7.765809] (-) TimerEvent: {}
+[7.866474] (-) TimerEvent: {}
+[7.967109] (-) TimerEvent: {}
+[8.067829] (-) TimerEvent: {}
+[8.168482] (-) TimerEvent: {}
+[8.269495] (-) TimerEvent: {}
+[8.370344] (-) TimerEvent: {}
+[8.470972] (-) TimerEvent: {}
+[8.571508] (-) TimerEvent: {}
+[8.671995] (-) TimerEvent: {}
+[8.772664] (-) TimerEvent: {}
+[8.873636] (-) TimerEvent: {}
+[8.974768] (-) TimerEvent: {}
+[8.998242] (tello_driver) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/state_socket.cpp.o\x1b[0m\n'}
+[9.075151] (-) TimerEvent: {}
+[9.175558] (-) TimerEvent: {}
+[9.276147] (-) TimerEvent: {}
+[9.284462] (tello_driver) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/tello_driver_main.dir/src/video_socket.cpp.o\x1b[0m\n'}
+[9.377312] (-) TimerEvent: {}
+[9.478453] (-) TimerEvent: {}
+[9.512980] (tello_driver) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tello/tello_ros_ws/src/tello_ros/tello_driver/src/video_socket.cpp:6:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kcamera_calibration_parsers/parse.hpp: No such file or directory\n'}
+[9.513768] (tello_driver) StderrLine: {'line': b' #include \x1b[01;31m\x1b[K"camera_calibration_parsers/parse.hpp"\x1b[m\x1b[K\n'}
+[9.514099] (tello_driver) StderrLine: {'line': b'          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.514405] (tello_driver) StderrLine: {'line': b'compilation terminated.\n'}
+[9.515927] (tello_driver) StdoutLine: {'line': b"CMakeFiles/tello_driver_main.dir/build.make:182: recipe for target 'CMakeFiles/tello_driver_main.dir/src/video_socket.cpp.o' failed\n"}
+[9.516188] (tello_driver) StderrLine: {'line': b'make[2]: *** [CMakeFiles/tello_driver_main.dir/src/video_socket.cpp.o] Error 1\n'}
+[9.516341] (tello_driver) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[9.579065] (-) TimerEvent: {}
+[9.680738] (-) TimerEvent: {}
+[9.781956] (-) TimerEvent: {}
+[9.883105] (-) TimerEvent: {}
+[9.983982] (-) TimerEvent: {}
+[10.085445] (-) TimerEvent: {}
+[10.186290] (-) TimerEvent: {}
+[10.287202] (-) TimerEvent: {}
+[10.388825] (-) TimerEvent: {}
+[10.489977] (-) TimerEvent: {}
+[10.590978] (-) TimerEvent: {}
+[10.691769] (-) TimerEvent: {}
+[10.792535] (-) TimerEvent: {}
+[10.893253] (-) TimerEvent: {}
+[10.993951] (-) TimerEvent: {}
+[11.094594] (-) TimerEvent: {}
+[11.194820] (-) TimerEvent: {}
+[11.296497] (-) TimerEvent: {}
+[11.397668] (-) TimerEvent: {}
+[11.498847] (-) TimerEvent: {}
+[11.599600] (-) TimerEvent: {}
+[11.699951] (-) TimerEvent: {}
+[11.801195] (-) TimerEvent: {}
+[11.902396] (-) TimerEvent: {}
+[12.003093] (-) TimerEvent: {}
+[12.103674] (-) TimerEvent: {}
+[12.204261] (-) TimerEvent: {}
+[12.305566] (-) TimerEvent: {}
+[12.405831] (-) TimerEvent: {}
+[12.506188] (-) TimerEvent: {}
+[12.610288] (-) TimerEvent: {}
+[12.711252] (-) TimerEvent: {}
+[12.811892] (-) TimerEvent: {}
+[12.912853] (-) TimerEvent: {}
+[13.013117] (-) TimerEvent: {}
+[13.113756] (-) TimerEvent: {}
+[13.214561] (-) TimerEvent: {}
+[13.315693] (-) TimerEvent: {}
+[13.416365] (-) TimerEvent: {}
+[13.516717] (-) TimerEvent: {}
+[13.530899] (tello_driver) StderrLine: {'line': b'make[1]: *** [CMakeFiles/tello_driver_main.dir/all] Error 2\n'}
+[13.531679] (tello_driver) StdoutLine: {'line': b"CMakeFiles/Makefile2:279: recipe for target 'CMakeFiles/tello_driver_main.dir/all' failed\n"}
+[13.531861] (tello_driver) StdoutLine: {'line': b"Makefile:140: recipe for target 'all' failed\n"}
+[13.531971] (tello_driver) StderrLine: {'line': b'make: *** [all] Error 2\n'}
+[13.534304] (tello_driver) CommandEnded: {'returncode': 2}
+[13.592034] (tello_driver) JobEnded: {'identifier': 'tello_driver', 'rc': 2}
+[13.604654] (-) EventReactorShutdown: {}

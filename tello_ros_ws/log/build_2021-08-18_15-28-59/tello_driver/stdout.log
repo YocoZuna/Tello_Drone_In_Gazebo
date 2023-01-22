@@ -1,0 +1,5 @@
+[ 13%] Built target tello_joy_main
+[ 18%] [32mBuilding CXX object CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o[0m
+CMakeFiles/tello_driver_node.dir/build.make:158: recipe for target 'CMakeFiles/tello_driver_node.dir/src/video_socket.cpp.o' failed
+CMakeFiles/Makefile2:168: recipe for target 'CMakeFiles/tello_driver_node.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,5 @@
+make[2]: *** [CMakeFiles/tello_driver_node.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/tello_driver_node.dir/all] Interrupt
+make[2]: *** [CMakeFiles/tello_joy_main.dir/depend] Interrupt
+make[1]: *** [CMakeFiles/tello_joy_main.dir/all] Interrupt
+make: *** [all] Interrupt
